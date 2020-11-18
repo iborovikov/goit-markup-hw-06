@@ -54,6 +54,35 @@
               <use href="./images/sprite.svg#vector"></use>
             </svg>
           </button>
+          <form class="order-form">
+          
+            <div class="order-container" role="group">
+              <h3 class="title modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+              <ul class="list order-list">
+                <li class="order-item">
+                  <label class="order-lable" for="name">Имя</label>
+                  <input type="text" name="name" id="name">
+                </li>
+                <li class="order-item">
+                  <label class="order-lable" for="tel">Телефон</label>
+                  <input type="tel" name="tel" id="tel">
+                </li>
+                <li class="order-item">
+                  <label class="order-lable" for="mail">Почта</label>
+                  <input type="email" name="mail" id="mail"></li>
+                <li class="order-item">
+                  <label class="order-lable" for="comment">Комментарий</label>
+                  <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                </li>
+              </ul>
+              <div class="rules-accept-container">
+                <input type="checkbox" name="rules-accept" id="rules-accept" value="rules">
+                <label for="rules-accept">Соглашаюсь с рассылкой и принимаю <a class="link rules-link" href="">Условия
+                    договора</a></label>
+              </div>
+              <button class="btn send-btn" type="submit">Отправить</button>
+            </div>
+          </form>
         </div>
       </div>
       
