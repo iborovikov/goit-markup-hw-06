@@ -392,9 +392,10 @@ textarea {
   transform: translateY(-50%);
   display: inline-block;
   width: 16px;
-  height: 15px;
+  height: 16px;
   margin-right: 8px;
   background-image: url(../images/uncheked.svg);
+  background-repeat: no-repeat;
 }
 .original-chekbox:checked + .checkbox-icon {
   background-color: var(--accent-cl);
@@ -608,7 +609,7 @@ textarea {
 }
 .footer-container {
   position: relative;
-  padding: 0px;
+
   display: flex;
 }
 .contacts-container {
@@ -664,7 +665,7 @@ textarea {
 }
 .subscride-form {
   position: absolute;
-  right: 0px;
+  right: 15px;
 }
 .subscribe-container {
   position: relative;
