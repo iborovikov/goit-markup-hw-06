@@ -373,6 +373,7 @@ textarea {
 }
 .rules-accept-container {
   position: relative;
+  left: 12px;
   display: block;
   margin-bottom: 30px;
 }
