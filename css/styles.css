@@ -606,6 +606,7 @@ textarea {
   background-color: var(--dark-bg);
 }
 .footer-container {
+  position: relative;
   padding: 0px;
   display: flex;
 }
@@ -659,6 +660,10 @@ textarea {
 .social-item .gray-bg:hover,
 .social-item .gray-bg:focus {
   background-color: var(--accent-cl);
+}
+.subscride-form {
+  position: absolute;
+  right: 0px;
 }
 .subscribe-container {
   position: relative;
